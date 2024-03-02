@@ -43,12 +43,7 @@ def main():
     """
     Função principal do jogo.
     """
-    print("Pressione Enter para iniciar o Jogo da Velha...")
-    try:
-        input()  # Aguarda o usuário pressionar Enter
-    except EOFError:
-        print("Erro: Nenhuma entrada detectada.")
-        return
+    print("Bem-vindo ao Jogo da Velha!")
 
     board = [[' ' for _ in range(3)] for _ in range(3)]
     player = 'X'
